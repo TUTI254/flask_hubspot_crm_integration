@@ -114,7 +114,9 @@ deal_ids (array of integers, optional)
 
 ## API DOCS
     The API is documented using Swagger UI. To access the documentation:
-
 Start the application using docker-compose up.
 
 Navigate to: `http://localhost:5001/apidocs/`
+
+## Video Overview
+this is  a short recording illustrating the breakdown of task and the Project overview based on folder structure: https://www.loom.com/share/7092c195a37347df88c8e6cebf448b07
