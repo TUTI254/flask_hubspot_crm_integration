@@ -1,6 +1,6 @@
 import logging
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from utils.extensions import db
 from flasgger import Swagger
 from config import load_config
 from utils.logging_config import configure_logging
@@ -10,7 +10,6 @@ def create_app(env_name=None):
     
     app = Flask(__name__)
 
-    db = SQLAlchemy()
     
     # Load config from environment
     config_obj = load_config(env_name)
